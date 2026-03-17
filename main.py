@@ -7,7 +7,7 @@ TELEGRAM_TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
 # ID навичок (169 — це Python, ти можеш додати інші через кому)
-URL = "https://api.freelancehunt.com/v2/projects?filter[skill_id]=169"
+URL = "https://freelancehunt.com/projects?skills=169&skills=180"
 DB_FILE = "last_id.txt"
 
 def send_telegram(message):
